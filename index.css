@@ -1,0 +1,80 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+#name {
+    display: flex;
+    height: 10vh;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to left top, #1e2b75, #6cdbeb);
+    text-align: left;
+    font-size: 22px;
+    font-weight: 100;
+    color: white; 
+    line-height: 50px;
+    display: grid;
+    grid-template-columns: 400px 1fr;
+}
+
+.Greetings{
+    position: relative;
+    animation: Greetings;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes Greetings{
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    list-style: none;
+}
+header{
+    background: black;
+    min-height: 100vh;
+    z-index: 2;
+    text-align: center;
+    color: cornflowerblue;
+}
+main{
+    margin-left: 10px;
+    z-index: 2;
+}
+h2{
+    color: rgb(56, 73, 151);
+}
+#circle1{
+    top: 40%;
+    right: 16%;
+    background: linear-gradient(
+      to right bottom,
+      rgba(56, 73, 151, 0.8),
+      rgba(24, 179, 57, 0.3)
+    );
+}
+#circle2{
+    bottom: 5%;
+    left: 50%;
+    background: linear-gradient(
+      to right bottom,
+      rgba(156, 38, 38, 0.8),
+      rgba(83, 18, 145, 0.3)
+    );
+}
+#circle1, #circle2{
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    border-radius: 50%;
+}
