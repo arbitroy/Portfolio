@@ -46,6 +46,7 @@ header{
     z-index: 2;
     text-align: center;
     color: cornflowerblue;
+    box-shadow: 0 3px 35px rgba(0, 0, 0, 0.7);
 }
 main{
     margin-left: 10px;
@@ -53,4 +54,9 @@ main{
 }
 h2{
     color: rgb(56, 73, 151);
+}
+
+img {
+    border-radius: 50rem;
+    border:5px rgb(18, 220, 255) solid;
 }
