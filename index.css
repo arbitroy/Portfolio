@@ -14,7 +14,7 @@ body {
     background: linear-gradient(to left top, #1e2b75, #6cdbeb);
     text-align: left;
     font-size: 22px;
-    font-weight: 100;
+    font-weight: 15;
     color: white; 
     line-height: 50px;
     display: grid;
@@ -49,32 +49,8 @@ header{
 }
 main{
     margin-left: 10px;
-    z-index: 2;
+    z-index: 100;
 }
 h2{
     color: rgb(56, 73, 151);
-}
-#circle1{
-    top: 40%;
-    right: 16%;
-    background: linear-gradient(
-      to right bottom,
-      rgba(56, 73, 151, 0.8),
-      rgba(24, 179, 57, 0.3)
-    );
-}
-#circle2{
-    bottom: 5%;
-    left: 50%;
-    background: linear-gradient(
-      to right bottom,
-      rgba(156, 38, 38, 0.8),
-      rgba(83, 18, 145, 0.3)
-    );
-}
-#circle1, #circle2{
-    height: 20rem;
-    width: 20rem;
-    position: absolute;
-    border-radius: 50%;
 }
